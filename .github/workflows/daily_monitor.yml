@@ -3,7 +3,7 @@ name: Daily Price Monitor
 on:
   workflow_dispatch: # Позволяет запускать вручную
   schedule:
-    - cron: '0 9 * * *' # Запускать каждый день в 7:00 UTC (10:00 по Киеву)
+    - cron: '0 10 * * *' # Запускать каждый день в 7:00 UTC (10:00 по Киеву)
 
 jobs:
   monitor:
@@ -11,15 +11,15 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Set up Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: '18' # Укажите актуальную версию Node.js
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci
 
       - name: Run monitor script
         run: npm start

@@ -3,7 +3,6 @@ const { parsePrice } = require('./parsers/baseParser');
 const { historyService } = require('./data/history_service');
 const components = require('./config/components.json');
 const settings = require('./config/settings.json');
-require('dotenv').config();
 const historyManager = historyService();
 
 // Загрузка секретов из переменных окружения
