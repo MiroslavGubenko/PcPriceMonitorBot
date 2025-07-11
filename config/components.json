@@ -1,0 +1,26 @@
+[
+  {
+    "name": "SSD-накопитель M.2 512GB Kingston KC3000",
+    "urls": [
+      "https://elmir.ua/ssd-drives/ssd-drive_m_2_512gb_kingston_kc3000_skc3000s_512g/",
+      "https://telemart.ua/products/kingston-kc3000-3d-nand-tlc-512gb-m2-2280-pci-e-nvme-x4-skc3000s512g/",
+      "https://hard.rozetka.com.ua/kingston-skc3000s-512g/p323283631/"
+    ]
+  },
+  {
+    "name": "Процессор AMD Ryzen 5 7500F 3.7GHz/32MB Tray",
+    "urls": [
+      "https://hard.rozetka.com.ua/amd-100-000000597/p433793339/",
+      "https://elmir.ua/processors/processor_amd_ryzen_5_7500f_s-am5_3_7ghz_32mb_tray_100-000000597.html",
+      "https://telemart.ua/products/amd-ryzen-5-7500f-3750ghz-32mb-sam5-tray-100-000000597/"
+    ]
+  },
+  {
+    "name": "Оперативная память Kingston Fury Beast DDR5-6000 32768MB PC5-48000",
+    "urls": [
+      "https://elmir.ua/memory_modules/memory_module_kingston_fury_ddr5_32gb_2x16gb_6000mhz_beast_black_kf560c30bbek2-32.html",
+      "https://hard.rozetka.com.ua/kingston-fury-kf560c30bbk2-32/p424185324/",
+      "https://telemart.ua/products/kingston-ddr5-32gb-2x16gb-6000mhz-fury-beast-black-kf560c30bbek2-32/"
+    ]
+  }
+]

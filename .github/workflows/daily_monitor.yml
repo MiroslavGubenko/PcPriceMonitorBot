@@ -1,0 +1,36 @@
+name: Daily Price Monitor
+
+on:
+  workflow_dispatch: # Позволяет запускать вручную
+  schedule:
+    - cron: '0 7 * * *' # Запускать каждый день в 7:00 UTC (10:00 по Киеву)
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18' # Укажите актуальную версию Node.js
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run monitor script
+        run: npm start
+        env:
+          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+          CHAT_ID: ${{ secrets.CHAT_ID }}
+      
+      - name: Commit and push price history
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add data/price_history.json
+          # Проверяем, есть ли изменения для коммита
+          git diff --staged --quiet || (git commit -m "Update price history" && git push)
