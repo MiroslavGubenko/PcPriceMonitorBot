@@ -16,31 +16,36 @@ function extractPrice(text) {
  * @returns {Promise<object>}
  */
 async function parsePrice(storeConfig) {
-  let browser
- 
-  const { url, priceSelector, storeName } = storeConfig;
-  
-  try {
-    browser = await puppeteer.launch()
-    const page = await browser.newPage()
-    await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36');
-    await page.goto(url, {waitUntil:'networkidle2'})
-    await page.waitForSelector(priceSelector)
+  let browser;
 
-    const price = extractPrice(await page.$eval(priceSelector,el => el.textContent))
-    console.log(price)
+  const { url, priceSelector, storeName } = storeConfig;
+
+  try {
+    browser = await puppeteer.launch({
+      args: ['--no-sandbox', '--disable-setuid-sandbox'],
+    });
+    const page = await browser.newPage();
+    await page.setUserAgent(
+      'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36'
+    );
+    await page.goto(url, { waitUntil: 'networkidle2' });
+    await page.waitForSelector(priceSelector);
+
+    const price = extractPrice(
+      await page.$eval(priceSelector, (el) => el.textContent)
+    );
+    console.log(price);
     if (!price) {
-      console.log(storeName, "NO PRICE!!!🔴")
+      console.log(storeName, 'NO PRICE!!!🔴');
       return { storeName, url, price: null, error: 'Price not found.' };
     }
-    console.log('\n\n--------------------------------------------\n\n')
+    console.log('\n\n--------------------------------------------\n\n');
     return { storeName, url, price };
-
   } catch (error) {
     console.error(`Error parsing ${url}:`, error.message);
     return { storeName, url, price: null, error: error.message };
-  } finally{
-    await browser.close()
+  } finally {
+    await browser.close();
   }
 }
 
