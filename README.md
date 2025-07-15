@@ -15,7 +15,7 @@ npm run start
 ``` 
 
 ## config/settings.json
-
+```
 {
     "currencySymbol": "грн, $, EUR etc. label for price",
     "telegram": {
@@ -27,3 +27,4 @@ npm run start
         "site3.com": "p.product-price__big"
     }
 }
+```
