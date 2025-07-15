@@ -3,7 +3,7 @@ name: Daily Price Monitor
 on:
   workflow_dispatch: # Позволяет запускать вручную
   schedule:
-    - cron: '20 12 * * *' # Запускать каждый день в 7:00 UTC (10:00 по Киеву)    
+    - cron: '20 2 * * *' # Запускать каждый день в 7:00 UTC (10:00 по Киеву)    
 
 jobs:
   monitor:
