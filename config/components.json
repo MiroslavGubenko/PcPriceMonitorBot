@@ -23,23 +23,26 @@
       "https://telemart.ua/products/kingston-ddr5-32gb-2x16gb-6000mhz-fury-beast-black-kf560c30bbek2-32/"
     ]
   },
-{
-"name":"Материнская плата Gigabyte X870I AORUS PRO ICE",
-"urls":[
-"https://hard.rozetka.com.ua/gigabyte-x870i-aorus-pro-ice/p447377909/",
-"https://elmir.ua/motherboards/motherboard-gigabyte-x870i-aorus-pro-ice-s-am5-x870.html",
-"https://telemart.ua/products/gigabyte-x870i-aorus-pro-ice-sam5-amd-x870/"
-]
-},
-{
-"name":"Видеокарта ASUS PCI-Ex GeForce RTX 5060 Ti PRIME OC Edition 16GB GDDR7",
-"urls":["https://hard.rozetka.com.ua/asus-prime-rtx5060ti-o16g/p502454334/","https://elmir.ua/video_cards/graphics-card-asus-pci-e-geforce-rtx5060-ti-16gb-ddr7-prime-rtx5060ti-o16g.html"]
-},
   {
-    "name":"Deepcool AN600",
-"urls":[
-"https://hard.rozetka.com.ua/deepcool-r-an600-bknnmn-g/p418607487/",
-  "https://elmir.ua/cpu_cooling/cpu_cooler_deepcool_an600_r-an600-bknnmn-g.html",
-]
+    "name": "Материнская плата Gigabyte X870I AORUS PRO ICE",
+    "urls": [
+      "https://hard.rozetka.com.ua/gigabyte-x870i-aorus-pro-ice/p447377909/",
+      "https://elmir.ua/motherboards/motherboard-gigabyte-x870i-aorus-pro-ice-s-am5-x870.html",
+      "https://telemart.ua/products/gigabyte-x870i-aorus-pro-ice-sam5-amd-x870/"
+    ]
+  },
+  {
+    "name": "Видеокарта ASUS PCI-Ex GeForce RTX 5060 Ti PRIME OC Edition 16GB GDDR7",
+    "urls": [
+      "https://hard.rozetka.com.ua/asus-prime-rtx5060ti-o16g/p502454334/",
+      "https://elmir.ua/video_cards/graphics-card-asus-pci-e-geforce-rtx5060-ti-16gb-ddr7-prime-rtx5060ti-o16g.html"
+    ]
+  },
+  {
+    "name": "Deepcool AN600",
+    "urls": [
+      "https://hard.rozetka.com.ua/deepcool-r-an600-bknnmn-g/p418607487/",
+      "https://elmir.ua/cpu_cooling/cpu_cooler_deepcool_an600_r-an600-bknnmn-g.html"
+    ]
   }
 ]
