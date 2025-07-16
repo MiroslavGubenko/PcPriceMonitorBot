@@ -18,7 +18,21 @@ function historyService() {
 
   function addNewHistory(key, newHistory) {
     const currentDate = new Date().toLocaleDateString('ru-RU');
-    priceHistory[key] = { [currentDate]: newHistory };
+    if (!priceHistory[key]) {
+      priceHistory[key] = [];
+    }
+
+    const entryIndex = priceHistory[key].findIndex(
+      (entry) => Object.keys(entry)[0] === currentDate
+    );
+
+    if (entryIndex !== -1) {
+      console.log(`Updating price for ${key} on ${currentDate}`);
+      priceHistory[key][entryIndex][currentDate] = newHistory;
+    } else {
+      console.log(`Adding new price for ${key} on ${currentDate}`);
+      priceHistory[key].push({ [currentDate]: newHistory });
+    }
   }
 
   async function saveHistory() {

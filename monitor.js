@@ -4,7 +4,7 @@ const { historyService } = require('./data/history_service');
 const components = require('./config/components.json');
 const settings = require('./config/settings.json');
 const historyManager = historyService();
-
+// require('dotenv').config(); // for local dev. Create .env file and add BOT_TOKEN and CHAT_ID
 // Загрузка секретов из переменных окружения
 const BOT_TOKEN = process.env.BOT_TOKEN;
 const CHAT_ID = process.env.CHAT_ID;
