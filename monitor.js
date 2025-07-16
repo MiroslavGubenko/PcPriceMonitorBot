@@ -70,6 +70,15 @@ async function main() {
       } else {
         report += ` ✨ *Лучшее предложение: ${bestShop} — ${bestPrice} ${settings.currencySymbol}*\n\n`;
       }
+
+      if (allPrices.length > 0) {
+        const isFountDesiredCost = allPrices.some(
+          (price) => price <= component.desiredCost
+        );
+        if (isFountDesiredCost) {
+          report += `  _‼️ Срочно брать (желаемая цена: ${component.desiredCost})._\n\n`;
+        }
+      }
     } else {
       report += `  _Нет доступных предложений._\n\n`;
     }
