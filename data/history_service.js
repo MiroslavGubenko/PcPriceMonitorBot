@@ -45,7 +45,13 @@ function historyService() {
       console.warn('History is not saved. => ', e);
     }
   }
-  return { priceHistory, loadCurrentHistory, addNewHistory, saveHistory };
+
+  return {
+    getPriceHistory: () => priceHistory,
+    loadCurrentHistory,
+    addNewHistory,
+    saveHistory,
+  };
 }
 
 module.exports = { historyService };

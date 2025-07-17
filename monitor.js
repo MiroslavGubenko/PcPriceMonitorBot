@@ -1,10 +1,11 @@
 const { Telegraf } = require('telegraf');
 const { parsePrice } = require('./parsers/baseParser');
 const { historyService } = require('./data/history_service');
+const { generatePriceReport } = require('./data/history_reporter');
 const components = require('./config/components.json');
 const settings = require('./config/settings.json');
 const historyManager = historyService();
-// require('dotenv').config(); // for local dev. Create .env file and add BOT_TOKEN and CHAT_ID
+require('dotenv').config(); // for local dev. Create .env file and add BOT_TOKEN and CHAT_ID
 // Загрузка секретов из переменных окружения
 const BOT_TOKEN = process.env.BOT_TOKEN;
 const CHAT_ID = process.env.CHAT_ID;
@@ -85,7 +86,7 @@ async function main() {
 
     historyManager.addNewHistory(component.name, prices);
   }
-
+  await historyManager.saveHistory();
   // console.log(report);
   try {
     await bot.telegram.sendMessage(CHAT_ID, report, {
@@ -98,7 +99,26 @@ async function main() {
   } catch (error) {
     console.error('Failed to send Telegram message:', error);
   }
-  await historyManager.saveHistory();
+
+  if (new Date().getDay() === settings.historyReportDay) {
+    const priceHistoryReport = generatePriceReport(
+      historyManager.getPriceHistory()
+    );
+    try {
+      await bot.telegram.sendMessage(CHAT_ID, priceHistoryReport, {
+        parse_mode: 'Markdown',
+        link_preview_options: {
+          is_disabled: true,
+        },
+      });
+      console.log('History Report sent successfully!');
+    } catch (error) {
+      console.error(
+        'HISTORY_REPORT |  Failed to send Telegram message:',
+        error
+      );
+    }
+  }
 }
 
 main();
