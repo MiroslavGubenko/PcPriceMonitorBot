@@ -25,6 +25,19 @@
           "hard.rozetka.com.ua": 2839
         }
       ]
+    },
+    {
+      "18.07.2025": [
+        {
+          "elmir.ua": 2699
+        },
+        {
+          "telemart.ua": 2839
+        },
+        {
+          "hard.rozetka.com.ua": 2839
+        }
+      ]
     }
   ],
   "Процессор AMD Ryzen 5 7500F 3.7GHz/32MB Tray": [
@@ -43,6 +56,19 @@
     },
     {
       "17.07.2025": [
+        {
+          "hard.rozetka.com.ua": 6278
+        },
+        {
+          "elmir.ua": 6975
+        },
+        {
+          "telemart.ua": 6999
+        }
+      ]
+    },
+    {
+      "18.07.2025": [
         {
           "hard.rozetka.com.ua": 6278
         },
@@ -81,6 +107,19 @@
           "telemart.ua": 5799
         }
       ]
+    },
+    {
+      "18.07.2025": [
+        {
+          "elmir.ua": 5799
+        },
+        {
+          "hard.rozetka.com.ua": 5799
+        },
+        {
+          "telemart.ua": 5799
+        }
+      ]
     }
   ],
   "Материнская плата Gigabyte X870I AORUS PRO ICE": [
@@ -99,6 +138,19 @@
     },
     {
       "17.07.2025": [
+        {
+          "hard.rozetka.com.ua": 15499
+        },
+        {
+          "elmir.ua": 15499
+        },
+        {
+          "telemart.ua": 15499
+        }
+      ]
+    },
+    {
+      "18.07.2025": [
         {
           "hard.rozetka.com.ua": 15499
         },
@@ -131,6 +183,16 @@
           "elmir.ua": 26089
         }
       ]
+    },
+    {
+      "18.07.2025": [
+        {
+          "hard.rozetka.com.ua": 26089
+        },
+        {
+          "elmir.ua": 26089
+        }
+      ]
     }
   ],
   "Deepcool AN600": [
@@ -151,6 +213,16 @@
         },
         {
           "elmir.ua": 2000
+        }
+      ]
+    },
+    {
+      "18.07.2025": [
+        {
+          "hard.rozetka.com.ua": 2333
+        },
+        {
+          "elmir.ua": 1999
         }
       ]
     }
