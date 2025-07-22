@@ -36,6 +36,14 @@
     "desiredCost": 11500
   },
   {
+    "name":"Asus ROG Strix B850-I Gaming Wi-Fi",
+    "urls":[
+      "https://hard.rozetka.com.ua/asus-rog-strix-b850-i-gaming-wifi/p471044039",
+      "https://elmir.ua/motherboards/motherboard-asus-rog-strix-b850-i-gaming-wifi-s-am5-b850.html",
+      "https://telemart.ua/products/asus-rog-strix-b850-i-gaming-wifi-sam5-amd-b850"],
+    "desiredCost": 14000
+},
+  {
     "name": "Видеокарта ASUS PCI-Ex GeForce RTX 5060 Ti PRIME OC Edition 16GB GDDR7",
     "urls": [
       "https://hard.rozetka.com.ua/asus-prime-rtx5060ti-o16g/p502454334/",
