@@ -77,6 +77,19 @@
           "hard.rozetka.com.ua": 2839
         }
       ]
+    },
+    {
+      "22.07.2025": [
+        {
+          "elmir.ua": 2699
+        },
+        {
+          "telemart.ua": 2839
+        },
+        {
+          "hard.rozetka.com.ua": 2839
+        }
+      ]
     }
   ],
   "Процессор AMD Ryzen 5 7500F 3.7GHz/32MB Tray": [
@@ -157,6 +170,19 @@
           "telemart.ua": 6999
         }
       ]
+    },
+    {
+      "22.07.2025": [
+        {
+          "hard.rozetka.com.ua": 6119
+        },
+        {
+          "elmir.ua": 6976
+        },
+        {
+          "telemart.ua": 6999
+        }
+      ]
     }
   ],
   "Оперативная память Kingston Fury Beast DDR5-6000 32768MB PC5-48000": [
@@ -227,6 +253,19 @@
     },
     {
       "21.07.2025": [
+        {
+          "elmir.ua": 5799
+        },
+        {
+          "hard.rozetka.com.ua": 5799
+        },
+        {
+          "telemart.ua": 5799
+        }
+      ]
+    },
+    {
+      "22.07.2025": [
         {
           "elmir.ua": 5799
         },
@@ -340,6 +379,16 @@
           "elmir.ua": 26089
         }
       ]
+    },
+    {
+      "22.07.2025": [
+        {
+          "hard.rozetka.com.ua": 25559
+        },
+        {
+          "elmir.ua": 26089
+        }
+      ]
     }
   ],
   "Deepcool AN600": [
@@ -402,6 +451,16 @@
           "elmir.ua": 1999
         }
       ]
+    },
+    {
+      "22.07.2025": [
+        {
+          "hard.rozetka.com.ua": 2333
+        },
+        {
+          "elmir.ua": 1999
+        }
+      ]
     }
   ],
   "MSI MPG B850I Edge Ti Wi-Fi": [
@@ -446,6 +505,19 @@
     },
     {
       "21.07.2025": [
+        {
+          "hard.rozetka.com.ua": 13319
+        },
+        {
+          "elmir.ua": 13219
+        },
+        {
+          "telemart.ua": 13319
+        }
+      ]
+    },
+    {
+      "22.07.2025": [
         {
           "hard.rozetka.com.ua": 13319
         },
