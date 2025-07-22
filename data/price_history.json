@@ -85,9 +85,6 @@
         },
         {
           "telemart.ua": 2839
-        },
-        {
-          "hard.rozetka.com.ua": 2839
         }
       ]
     }
@@ -526,6 +523,21 @@
         },
         {
           "telemart.ua": 13319
+        }
+      ]
+    }
+  ],
+  "Asus ROG Strix B850-I Gaming Wi-Fi": [
+    {
+      "22.07.2025": [
+        {
+          "hard.rozetka.com.ua": 15092
+        },
+        {
+          "elmir.ua": 15092
+        },
+        {
+          "telemart.ua": 15092
         }
       ]
     }
