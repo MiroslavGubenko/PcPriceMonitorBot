@@ -22,6 +22,7 @@ const bot = new Telegraf(BOT_TOKEN);
 async function main() {
   console.log('Starting price monitoring...');
   await historyManager.loadCurrentHistory();
+  let bestPricesReport = `⭐ Лучшие сегодня \n`;
   let report = `${settings.telegram.reportTitle}\n\n ${currentDate} \n\n`;
 
   for (const component of components) {
@@ -65,11 +66,13 @@ async function main() {
         }
       }
       const allEqual = allPrices.every((p) => p === allPrices[0]);
-
+      bestPricesReport += `*${component.name}* \n`;
       if (allEqual) {
         report += ` *Все цены одинаковые: ${bestPrice} ${settings.currencySymbol}*\n\n`;
+        bestPricesReport += ` *Все цены одинаковые: ${bestPrice} ${settings.currencySymbol}*\n\n`;
       } else {
         report += ` ✨ *Лучшее предложение: ${bestShop} — ${bestPrice} ${settings.currencySymbol}*\n\n`;
+        bestPricesReport += `${bestShop} — ${bestPrice} ${settings.currencySymbol}\n\n`;
       }
 
       if (allPrices.length > 0) {
@@ -90,6 +93,12 @@ async function main() {
   // console.log(report);
   try {
     await bot.telegram.sendMessage(CHAT_ID, report, {
+      parse_mode: 'Markdown',
+      link_preview_options: {
+        is_disabled: true,
+      },
+    });
+    await bot.telegram.sendMessage(CHAT_ID, bestPricesReport, {
       parse_mode: 'Markdown',
       link_preview_options: {
         is_disabled: true,
