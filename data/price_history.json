@@ -90,6 +90,19 @@
           "hard.rozetka.com.ua": 2839
         }
       ]
+    },
+    {
+      "23.07.2025": [
+        {
+          "elmir.ua": 2699
+        },
+        {
+          "telemart.ua": 2839
+        },
+        {
+          "hard.rozetka.com.ua": 2839
+        }
+      ]
     }
   ],
   "Процессор AMD Ryzen 5 7500F 3.7GHz/32MB Tray": [
@@ -183,6 +196,19 @@
           "telemart.ua": 6999
         }
       ]
+    },
+    {
+      "23.07.2025": [
+        {
+          "hard.rozetka.com.ua": 6799
+        },
+        {
+          "elmir.ua": 6967
+        },
+        {
+          "telemart.ua": 6999
+        }
+      ]
     }
   ],
   "Оперативная память Kingston Fury Beast DDR5-6000 32768MB PC5-48000": [
@@ -266,6 +292,19 @@
     },
     {
       "22.07.2025": [
+        {
+          "elmir.ua": 5799
+        },
+        {
+          "hard.rozetka.com.ua": 5799
+        },
+        {
+          "telemart.ua": 5799
+        }
+      ]
+    },
+    {
+      "23.07.2025": [
         {
           "elmir.ua": 5799
         },
@@ -389,6 +428,16 @@
           "elmir.ua": 26089
         }
       ]
+    },
+    {
+      "23.07.2025": [
+        {
+          "hard.rozetka.com.ua": 25559
+        },
+        {
+          "elmir.ua": 26089
+        }
+      ]
     }
   ],
   "Deepcool AN600": [
@@ -454,6 +503,16 @@
     },
     {
       "22.07.2025": [
+        {
+          "hard.rozetka.com.ua": 2333
+        },
+        {
+          "elmir.ua": 1999
+        }
+      ]
+    },
+    {
+      "23.07.2025": [
         {
           "hard.rozetka.com.ua": 2333
         },
@@ -528,11 +587,37 @@
           "telemart.ua": 13319
         }
       ]
+    },
+    {
+      "23.07.2025": [
+        {
+          "hard.rozetka.com.ua": 13319
+        },
+        {
+          "elmir.ua": 13219
+        },
+        {
+          "telemart.ua": 13319
+        }
+      ]
     }
   ],
   "Asus ROG Strix B850-I Gaming Wi-Fi": [
     {
       "22.07.2025": [
+        {
+          "hard.rozetka.com.ua": 15092
+        },
+        {
+          "elmir.ua": 15092
+        },
+        {
+          "telemart.ua": 15092
+        }
+      ]
+    },
+    {
+      "23.07.2025": [
         {
           "hard.rozetka.com.ua": 15092
         },
