@@ -207,6 +207,19 @@
           "hard.rozetka.com.ua": 2839
         }
       ]
+    },
+    {
+      "01.08.2025": [
+        {
+          "elmir.ua": 2839
+        },
+        {
+          "telemart.ua": 2839
+        },
+        {
+          "hard.rozetka.com.ua": 2839
+        }
+      ]
     }
   ],
   "Процессор AMD Ryzen 5 7500F 3.7GHz/32MB Tray": [
@@ -407,6 +420,19 @@
     },
     {
       "31.07.2025": [
+        {
+          "hard.rozetka.com.ua": 6799
+        },
+        {
+          "elmir.ua": 6799
+        },
+        {
+          "telemart.ua": 7099
+        }
+      ]
+    },
+    {
+      "01.08.2025": [
         {
           "hard.rozetka.com.ua": 6799
         },
@@ -627,6 +653,19 @@
           "telemart.ua": 5799
         }
       ]
+    },
+    {
+      "01.08.2025": [
+        {
+          "elmir.ua": 5799
+        },
+        {
+          "hard.rozetka.com.ua": 5799
+        },
+        {
+          "telemart.ua": 5799
+        }
+      ]
     }
   ],
   "Материнская плата Gigabyte X870I AORUS PRO ICE": [
@@ -830,6 +869,16 @@
           "elmir.ua": 26089
         }
       ]
+    },
+    {
+      "01.08.2025": [
+        {
+          "hard.rozetka.com.ua": 25559
+        },
+        {
+          "elmir.ua": 26089
+        }
+      ]
     }
   ],
   "Deepcool AN600": [
@@ -985,6 +1034,16 @@
     },
     {
       "31.07.2025": [
+        {
+          "hard.rozetka.com.ua": 2265
+        },
+        {
+          "elmir.ua": 1999
+        }
+      ]
+    },
+    {
+      "01.08.2025": [
         {
           "hard.rozetka.com.ua": 2265
         },
@@ -1243,6 +1302,19 @@
           "telemart.ua": 15092
         }
       ]
+    },
+    {
+      "01.08.2025": [
+        {
+          "hard.rozetka.com.ua": 15092
+        },
+        {
+          "elmir.ua": 15092
+        },
+        {
+          "telemart.ua": 15092
+        }
+      ]
     }
   ],
   "Кулер Noctua NH-L12Sx77": [
@@ -1313,6 +1385,19 @@
     },
     {
       "31.07.2025": [
+        {
+          "hard.rozetka.com.ua": 3979
+        },
+        {
+          "elmir.ua": 3979
+        },
+        {
+          "telemart.ua": 3979
+        }
+      ]
+    },
+    {
+      "01.08.2025": [
         {
           "hard.rozetka.com.ua": 3979
         },
