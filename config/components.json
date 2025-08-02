@@ -50,13 +50,5 @@
       "https://elmir.ua/video_cards/graphics-card-asus-pci-e-geforce-rtx5060-ti-16gb-ddr7-prime-rtx5060ti-o16g.html"
     ],
     "desiredCost": 20000
-  },
-  {
-    "name": "Deepcool AN600",
-    "urls": [
-      "https://hard.rozetka.com.ua/deepcool-r-an600-bknnmn-g/p418607487/",
-      "https://elmir.ua/cpu_cooling/cpu_cooler_deepcool_an600_r-an600-bknnmn-g.html"
-    ],
-    "desiredCost": 1800
   }
 ]
