@@ -1,5 +1,5 @@
 function generatePriceReport(data, daysBack = 7, currencySymbol = 'грн.') {
-  //console.log('Data =>', data);
+  // console.log('Data =>', data);
   const today = new Date();
   const fromDate = new Date();
   fromDate.setDate(today.getDate() - daysBack);
@@ -23,7 +23,10 @@ function generatePriceReport(data, daysBack = 7, currencySymbol = 'грн.') {
 
     for (const rec of entries) {
       const date = Object.keys(rec)[0];
-      if (date >= startStr && date <= todayStr) {
+      if (
+        toSortableString(date) >= toSortableString(startStr) &&
+        toSortableString(date) <= toSortableString(todayStr)
+      ) {
         const shops = rec[date];
         shops.forEach((sh) => {
           const [shop, price] = Object.entries(sh)[0];
@@ -31,7 +34,6 @@ function generatePriceReport(data, daysBack = 7, currencySymbol = 'грн.') {
         });
       }
     }
-
     if (pricesInPeriod.length === 0) continue;
 
     let minRec = pricesInPeriod[0];
@@ -63,6 +65,10 @@ function generatePriceReport(data, daysBack = 7, currencySymbol = 'грн.') {
   }
   //console.log('Current history report', lines);
   return lines.join('\n');
+}
+
+function toSortableString(str) {
+  return str.split('.').reverse().join('-');
 }
 
 module.exports = { generatePriceReport };
