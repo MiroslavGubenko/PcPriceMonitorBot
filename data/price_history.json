@@ -350,6 +350,19 @@
           "hard.rozetka.com.ua": 2839
         }
       ]
+    },
+    {
+      "12.08.2025": [
+        {
+          "elmir.ua": 2839
+        },
+        {
+          "telemart.ua": 2839
+        },
+        {
+          "hard.rozetka.com.ua": 2839
+        }
+      ]
     }
   ],
   "Процессор AMD Ryzen 5 7500F 3.7GHz/32MB Tray": [
@@ -698,6 +711,16 @@
         },
         {
           "telemart.ua": 7099
+        }
+      ]
+    },
+    {
+      "12.08.2025": [
+        {
+          "hard.rozetka.com.ua": 6799
+        },
+        {
+          "elmir.ua": 7099
         }
       ]
     }
@@ -1053,6 +1076,19 @@
           "telemart.ua": 5799
         }
       ]
+    },
+    {
+      "12.08.2025": [
+        {
+          "elmir.ua": 5799
+        },
+        {
+          "hard.rozetka.com.ua": 5799
+        },
+        {
+          "telemart.ua": 5799
+        }
+      ]
     }
   ],
   "Материнская плата Gigabyte X870I AORUS PRO ICE": [
@@ -1359,6 +1395,16 @@
     },
     {
       "11.08.2025": [
+        {
+          "hard.rozetka.com.ua": 25509
+        },
+        {
+          "elmir.ua": 26809
+        }
+      ]
+    },
+    {
+      "12.08.2025": [
         {
           "hard.rozetka.com.ua": 25509
         },
@@ -1942,6 +1988,19 @@
           "telemart.ua": 15092
         }
       ]
+    },
+    {
+      "12.08.2025": [
+        {
+          "hard.rozetka.com.ua": 15092
+        },
+        {
+          "elmir.ua": 15092
+        },
+        {
+          "telemart.ua": 15092
+        }
+      ]
     }
   ],
   "Кулер Noctua NH-L12Sx77": [
@@ -2165,6 +2224,19 @@
           "telemart.ua": 3979
         }
       ]
+    },
+    {
+      "12.08.2025": [
+        {
+          "hard.rozetka.com.ua": 3979
+        },
+        {
+          "elmir.ua": 3979
+        },
+        {
+          "telemart.ua": 3979
+        }
+      ]
     }
   ],
   "Блок питания 750W Asus ROG Loki (ROG-LOKI-750P-SFX-L-GAMING)": [
@@ -2220,6 +2292,16 @@
     },
     {
       "11.08.2025": [
+        {
+          "elmir.ua": 10119
+        },
+        {
+          "hard.rozetka.com.ua": 10119
+        }
+      ]
+    },
+    {
+      "12.08.2025": [
         {
           "elmir.ua": 10119
         },
