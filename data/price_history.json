@@ -500,6 +500,16 @@
           "hard.rozetka.com.ua": 2839
         }
       ]
+    },
+    {
+      "24.08.2025": [
+        {
+          "elmir.ua": 2839
+        },
+        {
+          "telemart.ua": 2839
+        }
+      ]
     }
   ],
   "Процессор AMD Ryzen 5 7500F 3.7GHz/32MB Tray": [
@@ -984,6 +994,16 @@
     },
     {
       "23.08.2025": [
+        {
+          "elmir.ua": 6800
+        },
+        {
+          "telemart.ua": 7199
+        }
+      ]
+    },
+    {
+      "24.08.2025": [
         {
           "elmir.ua": 6800
         },
@@ -1500,6 +1520,19 @@
           "telemart.ua": 5899
         }
       ]
+    },
+    {
+      "24.08.2025": [
+        {
+          "elmir.ua": 5899
+        },
+        {
+          "hard.rozetka.com.ua": 5899
+        },
+        {
+          "telemart.ua": 5899
+        }
+      ]
     }
   ],
   "Материнская плата Gigabyte X870I AORUS PRO ICE": [
@@ -1931,6 +1964,16 @@
         },
         {
           "elmir.ua": 25299
+        }
+      ]
+    },
+    {
+      "24.08.2025": [
+        {
+          "hard.rozetka.com.ua": 25299
+        },
+        {
+          "elmir.ua": 24609
         }
       ]
     }
@@ -2665,6 +2708,19 @@
           "telemart.ua": 15092
         }
       ]
+    },
+    {
+      "24.08.2025": [
+        {
+          "hard.rozetka.com.ua": 15092
+        },
+        {
+          "elmir.ua": 15092
+        },
+        {
+          "telemart.ua": 15092
+        }
+      ]
     }
   ],
   "Кулер Noctua NH-L12Sx77": [
@@ -3044,6 +3100,19 @@
           "telemart.ua": 3979
         }
       ]
+    },
+    {
+      "24.08.2025": [
+        {
+          "hard.rozetka.com.ua": 3979
+        },
+        {
+          "elmir.ua": 3979
+        },
+        {
+          "telemart.ua": 3979
+        }
+      ]
     }
   ],
   "Блок питания 750W Asus ROG Loki (ROG-LOKI-750P-SFX-L-GAMING)": [
@@ -3219,6 +3288,16 @@
     },
     {
       "23.08.2025": [
+        {
+          "elmir.ua": 10119
+        },
+        {
+          "hard.rozetka.com.ua": 10119
+        }
+      ]
+    },
+    {
+      "24.08.2025": [
         {
           "elmir.ua": 10119
         },
