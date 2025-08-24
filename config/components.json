@@ -1,14 +1,5 @@
 [
   {
-    "name": "SSD-накопитель M.2 512GB Kingston KC3000",
-    "urls": [
-      "https://elmir.ua/ssd-drives/ssd-drive_m_2_512gb_kingston_kc3000_skc3000s_512g/",
-      "https://telemart.ua/products/kingston-kc3000-3d-nand-tlc-512gb-m2-2280-pci-e-nvme-x4-skc3000s512g/",
-      "https://hard.rozetka.com.ua/kingston-skc3000s-512g/p323283631/"
-    ],
-    "desiredCost": 2500
-  },
-  {
     "name": "Процессор AMD Ryzen 5 7500F 3.7GHz/32MB Tray",
     "urls": [
       "https://hard.rozetka.com.ua/amd-100-000000597/p460246119/",
@@ -25,15 +16,6 @@
       "https://telemart.ua/products/kingston-ddr5-32gb-2x16gb-6000mhz-fury-beast-black-kf560c30bbek2-32/"
     ],
     "desiredCost": 5200
-  },
-  {
-    "name": "Кулер Noctua NH-L12Sx77",
-    "urls": [
-      "https://hard.rozetka.com.ua/noctua-nh-l12sx77/p439926938/",
-      "https://elmir.ua/cpu_cooling/cpu-cooler-noctua-nh-l12sx77.html",
-      "https://telemart.ua/products/noctua-nh-l12sx77/"
-    ],
-    "desiredCost": 3500
   },
   {
     "name": "Asus ROG Strix B850-I Gaming Wi-Fi",
