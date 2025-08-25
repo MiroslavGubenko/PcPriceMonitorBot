@@ -1011,6 +1011,19 @@
           "telemart.ua": 7199
         }
       ]
+    },
+    {
+      "25.08.2025": [
+        {
+          "hard.rozetka.com.ua": 6799
+        },
+        {
+          "elmir.ua": 6800
+        },
+        {
+          "telemart.ua": 7199
+        }
+      ]
     }
   ],
   "Оперативная память Kingston Fury Beast DDR5-6000 32768MB PC5-48000": [
@@ -1533,6 +1546,19 @@
           "telemart.ua": 5899
         }
       ]
+    },
+    {
+      "25.08.2025": [
+        {
+          "elmir.ua": 5899
+        },
+        {
+          "hard.rozetka.com.ua": 5899
+        },
+        {
+          "telemart.ua": 5899
+        }
+      ]
     }
   ],
   "Материнская плата Gigabyte X870I AORUS PRO ICE": [
@@ -1974,6 +2000,16 @@
         },
         {
           "elmir.ua": 24609
+        }
+      ]
+    },
+    {
+      "25.08.2025": [
+        {
+          "hard.rozetka.com.ua": 25299
+        },
+        {
+          "elmir.ua": 25299
         }
       ]
     }
@@ -2721,6 +2757,19 @@
           "telemart.ua": 15092
         }
       ]
+    },
+    {
+      "25.08.2025": [
+        {
+          "hard.rozetka.com.ua": 15092
+        },
+        {
+          "elmir.ua": 15092
+        },
+        {
+          "telemart.ua": 15092
+        }
+      ]
     }
   ],
   "Кулер Noctua NH-L12Sx77": [
@@ -3303,6 +3352,13 @@
         },
         {
           "hard.rozetka.com.ua": 10119
+        }
+      ]
+    },
+    {
+      "25.08.2025": [
+        {
+          "elmir.ua": 10119
         }
       ]
     }
