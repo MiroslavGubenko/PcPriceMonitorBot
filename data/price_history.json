@@ -1259,9 +1259,6 @@
     {
       "13.09.2025": [
         {
-          "hard.rozetka.com.ua": 6399
-        },
-        {
           "elmir.ua": 6791
         },
         {
@@ -2680,9 +2677,6 @@
     },
     {
       "13.09.2025": [
-        {
-          "hard.rozetka.com.ua": 24619
-        },
         {
           "elmir.ua": 25299
         }
@@ -4456,9 +4450,45 @@
       "13.09.2025": [
         {
           "elmir.ua": 10119
+        }
+      ]
+    }
+  ],
+  "Модуль памяти G.Skill DDR5 32GB 2x16GB 6000MHz Trident Z5 Black (F5-6000J3040F16GX2-TZ5K)": [
+    {
+      "13.09.2025": [
+        {
+          "elmir.ua": 5551
         },
         {
-          "hard.rozetka.com.ua": 10119
+          "telemart.ua": 5699
+        }
+      ]
+    }
+  ],
+  "Материнская плата Asus ROG STRIX B760-I Gaming Wi-Fi (s1700, Intel B760, PCI-Ex16)": [
+    {
+      "13.09.2025": [
+        {
+          "hard.rozetka.com.ua": 9199
+        },
+        {
+          "elmir.ua": 8589
+        },
+        {
+          "telemart.ua": 9199
+        }
+      ]
+    }
+  ],
+  "Процессор Intel Core i5-12400F s-1700 4.4GHz/18MB Tray (CM8071504650609)": [
+    {
+      "13.09.2025": [
+        {
+          "elmir.ua": 4979
+        },
+        {
+          "hard.rozetka.com.ua": 5246
         }
       ]
     }
