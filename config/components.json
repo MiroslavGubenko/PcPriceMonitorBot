@@ -1,14 +1,5 @@
 [
   {
-    "name": "SSD-накопитель M.2 512GB Kingston KC3000",
-    "urls": [
-      "https://elmir.ua/ssd-drives/ssd-drive_m_2_512gb_kingston_kc3000_skc3000s_512g/",
-      "https://telemart.ua/products/kingston-kc3000-3d-nand-tlc-512gb-m2-2280-pci-e-nvme-x4-skc3000s512g/",
-      "https://hard.rozetka.com.ua/kingston-skc3000s-512g/p323283631/"
-    ],
-    "desiredCost": 2500
-  },
-  {
     "name": "Процессор AMD Ryzen 5 7500F 3.7GHz/32MB Tray",
     "urls": [
       "https://hard.rozetka.com.ua/amd-100-000000597/p460246119/",
@@ -25,15 +16,6 @@
       "https://telemart.ua/products/kingston-ddr5-32gb-2x16gb-6000mhz-fury-beast-black-kf560c30bbek2-32/"
     ],
     "desiredCost": 5200
-  },
-  {
-    "name": "Кулер Noctua NH-L12Sx77",
-    "urls": [
-      "https://hard.rozetka.com.ua/noctua-nh-l12sx77/p439926938/",
-      "https://elmir.ua/cpu_cooling/cpu-cooler-noctua-nh-l12sx77.html",
-      "https://telemart.ua/products/noctua-nh-l12sx77/"
-    ],
-    "desiredCost": 3500
   },
   {
     "name": "Asus ROG Strix B850-I Gaming Wi-Fi",
@@ -57,6 +39,29 @@
     "urls": [
       "https://elmir.ua/power_supplies/power_supply_unit_750w_asus_rog_loki_rog-loki-750p-sfx-l-gaming.html",
       "https://hard.rozetka.com.ua/ua/asus-rog-loki-750p-sfx-l-gaming/p370826877/"
+    ]
+  },
+  {
+    "name": "Модуль памяти G.Skill DDR5 32GB 2x16GB 6000MHz Trident Z5 Black (F5-6000J3040F16GX2-TZ5K)",
+    "urls": [
+      "https://elmir.ua/memory_modules/memory_module_g_skill_ddr5_32gb_2x16gb_6000mhz_trident_z5_black_f5-6000j3040f16gx2-tz5k.html",
+      "https://hard.rozetka.com.ua/gskill-f5-6000j3040f16gx2-tz5k/p378020340/",
+      "https://telemart.ua/products/gskill-ddr5-32gb-2x16gb-6000mhz-trident-z5-f5-6000j3040f16gx2-tz5k/"
+    ]
+  },
+  {
+    "name": "Материнская плата Asus ROG STRIX B760-I Gaming Wi-Fi (s1700, Intel B760, PCI-Ex16)",
+    "urls": [
+      "https://hard.rozetka.com.ua/asus-rog-strix-b760-i-gaming-wifi/p363942972/",
+      "https://elmir.ua/motherboards/motherboard_asus_rog_strix_b760-i_gaming_wifi_s-1700_b760.html",
+      "https://telemart.ua/products/asus-rog-strix-b760-i-gaming-wifi-s1700-intel-b760/"
+    ]
+  },
+  {
+    "name": "Процессор Intel Core i5-12400F s-1700 4.4GHz/18MB Tray (CM8071504650609)",
+    "urls": [
+      "https://elmir.ua/processors/processor_intel_core_i5-12400f_s-1700_2_5ghz_18mb_tray_cm8071504650609.html",
+      "https://hard.rozetka.com.ua/intel-bx8071512400f/p331700554/"
     ]
   }
 ]
