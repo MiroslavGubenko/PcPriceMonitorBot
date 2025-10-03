@@ -9,15 +9,6 @@
     "desiredCost": 5800
   },
   {
-    "name": "Оперативная память Kingston Fury Beast DDR5-6000 32768MB PC5-48000",
-    "urls": [
-      "https://elmir.ua/memory_modules/memory_module_kingston_fury_ddr5_32gb_2x16gb_6000mhz_beast_black_kf560c30bbek2-32.html",
-      "https://hard.rozetka.com.ua/kingston-fury-kf560c30bbek2-32/p424185390/",
-      "https://telemart.ua/products/kingston-ddr5-32gb-2x16gb-6000mhz-fury-beast-black-kf560c30bbek2-32/"
-    ],
-    "desiredCost": 5200
-  },
-  {
     "name": "Asus ROG Strix B850-I Gaming Wi-Fi",
     "urls": [
       "https://hard.rozetka.com.ua/asus-rog-strix-b850-i-gaming-wifi/p471044039",
@@ -39,14 +30,6 @@
     "urls": [
       "https://elmir.ua/power_supplies/power_supply_unit_750w_asus_rog_loki_rog-loki-750p-sfx-l-gaming.html",
       "https://hard.rozetka.com.ua/ua/asus-rog-loki-750p-sfx-l-gaming/p370826877/"
-    ]
-  },
-  {
-    "name": "Модуль памяти G.Skill DDR5 32GB 2x16GB 6000MHz Trident Z5 Black (F5-6000J3040F16GX2-TZ5K)",
-    "urls": [
-      "https://elmir.ua/memory_modules/memory_module_g_skill_ddr5_32gb_2x16gb_6000mhz_trident_z5_black_f5-6000j3040f16gx2-tz5k.html",
-      "https://hard.rozetka.com.ua/gskill-f5-6000j3040f16gx2-tz5k/p378020340/",
-      "https://telemart.ua/products/gskill-ddr5-32gb-2x16gb-6000mhz-trident-z5-f5-6000j3040f16gx2-tz5k/"
     ]
   },
   {
