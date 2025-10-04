@@ -1516,6 +1516,19 @@
           "telemart.ua": 6799
         }
       ]
+    },
+    {
+      "04.10.2025": [
+        {
+          "hard.rozetka.com.ua": 6387
+        },
+        {
+          "elmir.ua": 6359
+        },
+        {
+          "telemart.ua": 6799
+        }
+      ]
     }
   ],
   "Оперативная память Kingston Fury Beast DDR5-6000 32768MB PC5-48000": [
@@ -3383,6 +3396,16 @@
           "elmir.ua": 25299
         }
       ]
+    },
+    {
+      "04.10.2025": [
+        {
+          "hard.rozetka.com.ua": 25299
+        },
+        {
+          "elmir.ua": 25299
+        }
+      ]
     }
   ],
   "Deepcool AN600": [
@@ -4627,6 +4650,19 @@
           "telemart.ua": 14699
         }
       ]
+    },
+    {
+      "04.10.2025": [
+        {
+          "hard.rozetka.com.ua": 14095
+        },
+        {
+          "elmir.ua": 14095
+        },
+        {
+          "telemart.ua": 14699
+        }
+      ]
     }
   ],
   "Кулер Noctua NH-L12Sx77": [
@@ -5605,6 +5641,16 @@
           "hard.rozetka.com.ua": 10119
         }
       ]
+    },
+    {
+      "04.10.2025": [
+        {
+          "elmir.ua": 10119
+        },
+        {
+          "hard.rozetka.com.ua": 10119
+        }
+      ]
     }
   ],
   "Модуль памяти G.Skill DDR5 32GB 2x16GB 6000MHz Trident Z5 Black (F5-6000J3040F16GX2-TZ5K)": [
@@ -6146,6 +6192,19 @@
           "telemart.ua": 9199
         }
       ]
+    },
+    {
+      "04.10.2025": [
+        {
+          "hard.rozetka.com.ua": 9199
+        },
+        {
+          "elmir.ua": 9199
+        },
+        {
+          "telemart.ua": 9199
+        }
+      ]
     }
   ],
   "Процессор Intel Core i5-12400F s-1700 4.4GHz/18MB Tray (CM8071504650609)": [
@@ -6365,6 +6424,16 @@
       "03.10.2025": [
         {
           "elmir.ua": 6908
+        }
+      ]
+    },
+    {
+      "04.10.2025": [
+        {
+          "elmir.ua": 6908
+        },
+        {
+          "hard.rozetka.com.ua": 7086
         }
       ]
     }
