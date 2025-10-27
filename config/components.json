@@ -15,7 +15,7 @@
       "https://elmir.ua/motherboards/motherboard-asus-rog-strix-b850-i-gaming-wifi-s-am5-b850.html",
       "https://telemart.ua/products/asus-rog-strix-b850-i-gaming-wifi-sam5-amd-b850"
     ],
-    "desiredCost": 14000
+    "desiredCost": 12000
   },
   {
     "name": "Видеокарта ASUS PCI-Ex GeForce RTX 5060 Ti PRIME OC Edition 16GB GDDR7",
@@ -45,6 +45,7 @@
     "urls": [
       "https://elmir.ua/processors/processor-intel-core-i5-14400f-s-1700-4-7ghz-20mb-tray-cm8071504821113.html",
       "https://hard.rozetka.com.ua/ua/intel-bx8071514400f/p413463690/"
-    ]
+    ],
+    "desiredCost": 6600
   }
 ]
