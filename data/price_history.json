@@ -7818,6 +7818,9 @@
     {
       "01.11.2025": [
         {
+          "hard.rozetka.com.ua": 9199
+        },
+        {
           "elmir.ua": 9199
         },
         {
@@ -8329,10 +8332,22 @@
     {
       "01.11.2025": [
         {
-          "elmir.ua": 8152
+          "elmir.ua": 7949
         },
         {
           "hard.rozetka.com.ua": 7722
+        }
+      ]
+    }
+  ],
+  "Видеокарта Asus PCI-E Radeon RX 9060 XT 16GB DDR6 (PRIME-RX9060XT-O16G)": [
+    {
+      "01.11.2025": [
+        {
+          "elmir.ua": 20499
+        },
+        {
+          "hard.rozetka.com.ua": 20509
         }
       ]
     }
