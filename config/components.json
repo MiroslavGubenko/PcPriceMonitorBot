@@ -15,7 +15,7 @@
       "https://elmir.ua/motherboards/motherboard-asus-rog-strix-b850-i-gaming-wifi-s-am5-b850.html",
       "https://telemart.ua/products/asus-rog-strix-b850-i-gaming-wifi-sam5-amd-b850"
     ],
-    "desiredCost": 12000
+    "desiredCost": 10000
   },
   {
     "name": "Видеокарта ASUS PCI-Ex GeForce RTX 5060 Ti PRIME OC Edition 16GB GDDR7",
@@ -47,5 +47,13 @@
       "https://hard.rozetka.com.ua/ua/intel-bx8071514400f/p413463690/"
     ],
     "desiredCost": 6600
+  },
+   {
+    "name": "Видеокарта Asus PCI-E Radeon RX 9060 XT 16GB DDR6 (PRIME-RX9060XT-O16G)",
+    "urls": [
+      "https://elmir.ua/video_cards/graphics-card-asus-pci-e-radeon-rx-9060-xt-16gb-ddr6-prime-rx9060xt-o16g.html",
+      "https://hard.rozetka.com.ua/ua/asus-prime-rx9060xt-o16g/p516878114/"
+    ],
+    "desiredCost": 18000
   }
 ]
