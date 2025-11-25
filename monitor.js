@@ -108,8 +108,8 @@ async function main() {
   } catch (error) {
     console.error('Failed to send Telegram message:', error);
   }
-
-  if (new Date().getDay() === settings.historyReportDay) {
+//new Date().getDay() === settings.historyReportDay
+  if (true) {
     const priceHistoryReport = generatePriceReport(
       historyManager.getPriceHistory()
     );
