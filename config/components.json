@@ -1,59 +1,9 @@
 [
   {
-    "name": "Процессор AMD Ryzen 5 7500F 3.7GHz/32MB Tray",
-    "urls": [
-      "https://hard.rozetka.com.ua/amd-100-000000597/p460246119/",
-      "https://elmir.ua/processors/processor_amd_ryzen_5_7500f_s-am5_3_7ghz_32mb_tray_100-000000597.html",
-      "https://telemart.ua/products/amd-ryzen-5-7500f-3750ghz-32mb-sam5-tray-100-000000597/"
+    "name": "Персональний комп'ютер GEEKOM Mini IT12 (GMIT12U5125U-16512-EU) - Intel Core Ultra 5 Ultra 5 125U / 16 ГБ DDR5 / PCI-E SSD 512 ГБ / Intel / Intel Arc graphics, UMA / 90 Вт",
+    "urls": [ 
+      "https://ktc.ua/goods/personalnij_kompyuter_geekom_mini_it12_gmit12u5125u_16512_eu___intel_core_ultra_5_ultra_5_125u__16_gb_ddr5__pci_e_ssd_512_gb__intel__intel_arc_graphics_uma__90_vt.html"
     ],
     "desiredCost": 5800
-  },
-  {
-    "name": "Asus ROG Strix B850-I Gaming Wi-Fi",
-    "urls": [
-      "https://hard.rozetka.com.ua/asus-rog-strix-b850-i-gaming-wifi/p471044039",
-      "https://elmir.ua/motherboards/motherboard-asus-rog-strix-b850-i-gaming-wifi-s-am5-b850.html",
-      "https://telemart.ua/products/asus-rog-strix-b850-i-gaming-wifi-sam5-amd-b850"
-    ],
-    "desiredCost": 10000
-  },
-  {
-    "name": "Видеокарта ASUS PCI-Ex GeForce RTX 5060 Ti PRIME OC Edition 16GB GDDR7",
-    "urls": [
-      "https://hard.rozetka.com.ua/asus-prime-rtx5060ti-o16g/p502454334/",
-      "https://elmir.ua/video_cards/graphics-card-asus-pci-e-geforce-rtx5060-ti-16gb-ddr7-prime-rtx5060ti-o16g.html"
-    ],
-    "desiredCost": 20000
-  },
-  {
-    "name": "Блок питания 750W Asus ROG Loki (ROG-LOKI-750P-SFX-L-GAMING)",
-    "urls": [
-      "https://elmir.ua/power_supplies/power_supply_unit_750w_asus_rog_loki_rog-loki-750p-sfx-l-gaming.html",
-      "https://hard.rozetka.com.ua/ua/asus-rog-loki-750p-sfx-l-gaming/p370826877/"
-    ]
-  },
-  {
-    "name": "Материнская плата Asus ROG STRIX B760-I Gaming Wi-Fi (s1700, Intel B760, PCI-Ex16)",
-    "urls": [
-      "https://hard.rozetka.com.ua/asus-rog-strix-b760-i-gaming-wifi/p363942972/",
-      "https://elmir.ua/motherboards/motherboard_asus_rog_strix_b760-i_gaming_wifi_s-1700_b760.html",
-      "https://telemart.ua/products/asus-rog-strix-b760-i-gaming-wifi-s1700-intel-b760/"
-    ]
-  },
-  {
-    "name": "Процессор Intel Core i5-14400F s-1700 4.7GHz/20MB Tray|BOX",
-    "urls": [
-      "https://elmir.ua/processors/processor-intel-core-i5-14400f-s-1700-4-7ghz-20mb-tray-cm8071504821113.html",
-      "https://hard.rozetka.com.ua/ua/intel-bx8071514400f/p413463690/"
-    ],
-    "desiredCost": 6600
-  },
-   {
-    "name": "Видеокарта Asus PCI-E Radeon RX 9060 XT 16GB DDR6 (PRIME-RX9060XT-O16G)",
-    "urls": [
-      "https://elmir.ua/video_cards/graphics-card-asus-pci-e-radeon-rx-9060-xt-16gb-ddr6-prime-rx9060xt-o16g.html",
-      "https://hard.rozetka.com.ua/ua/asus-prime-rx9060xt-o16g/p516878114/"
-    ],
-    "desiredCost": 18000
   }
 ]
