@@ -5,7 +5,7 @@ const { generatePriceReport } = require('./data/history_reporter');
 const components = require('./config/components.json');
 const settings = require('./config/settings.json');
 const historyManager = historyService();
-require('dotenv').config(); // for local dev. Create .env file and add BOT_TOKEN and CHAT_ID
+//require('dotenv').config(); // for local dev. Create .env file and add BOT_TOKEN and CHAT_ID
 // Загрузка секретов из переменных окружения
 const BOT_TOKEN = process.env.BOT_TOKEN;
 const CHAT_ID = process.env.CHAT_ID;
@@ -26,33 +26,38 @@ async function main() {
   let report = `${settings.telegram.reportTitle}\n\n ${currentDate} \n\n`;
 
   for (const component of components) {
+    const urls = component.urls;
     report += `*${component.name}*\n`;
 
     const prices = [];
 
-    for (const url of component.urls) {
-      const { hostname } = new URL(url);
+    for (const url of urls) {
+      const { hostname } = new URL(url.link);
       const storeName = hostname.replace(/^www\./, '');
-
+      const { tag, link } = url;
       console.log('CURRENT store :=> ', storeName);
+      console.log('Получение цены с сылки -> ', url.link);
+
       const result = await parsePrice({
-        url,
+        url: url.link,
         priceSelector: settings.priceSelectors[storeName],
         storeName,
       });
 
+      const labelTags = tag != undefined ? '#(' + tag + ')' : '';
       if (result.price) {
-        prices.push({ [storeName]: result.price });
+        prices.push({ [storeName]: result.price, item_link: url.link });
 
-        report += `  - [${storeName}](${url}): *${result.price} ${settings.currencySymbol}*\n`;
+        report += `  - [${storeName}${labelTags}](${link}): *${result.price} ${settings.currencySymbol}*\n`;
       } else {
-        report += `  - [${storeName}](${url}): _не удалось получить цену_\n`;
+        report += `  - [${storeName}${labelTags}](${link}): _не удалось получить цену_\n`;
       }
     }
 
     // 3. Анализ и определение лучшей цены
     if (prices.length > 0) {
       let bestShop = null;
+      let itemLink = null;
       let bestPrice = Infinity;
       let allPrices = [];
 
@@ -63,6 +68,7 @@ async function main() {
         if (price < bestPrice) {
           bestPrice = price;
           bestShop = shop;
+          itemLink = entry.item_link;
         }
       }
       const allEqual = allPrices.every((p) => p === allPrices[0]);
@@ -71,8 +77,8 @@ async function main() {
         report += ` *Все цены одинаковые: ${bestPrice} ${settings.currencySymbol}*\n\n`;
         bestPricesReport += ` *Все цены одинаковые: ${bestPrice} ${settings.currencySymbol}*\n\n`;
       } else {
-        report += ` ✨ *Лучшее предложение: ${bestShop} — ${bestPrice} ${settings.currencySymbol}*\n\n`;
-        bestPricesReport += `${bestShop} — ${bestPrice} ${settings.currencySymbol}\n\n`;
+        report += ` ✨ *Лучшее предложение: ${bestShop} [товар](${itemLink}) — ${bestPrice} ${settings.currencySymbol}*\n\n`;
+        bestPricesReport += `${bestShop} [товар](${itemLink}) — ${bestPrice} ${settings.currencySymbol}\n\n`;
       }
 
       if (allPrices.length > 0) {
@@ -90,7 +96,7 @@ async function main() {
     historyManager.addNewHistory(component.name, prices);
   }
   await historyManager.saveHistory();
-  // console.log(report);
+
   try {
     await bot.telegram.sendMessage(CHAT_ID, report, {
       parse_mode: 'Markdown',
@@ -108,7 +114,7 @@ async function main() {
   } catch (error) {
     console.error('Failed to send Telegram message:', error);
   }
-//new Date().getDay() === settings.historyReportDay
+
   if (true) {
     const priceHistoryReport = generatePriceReport(
       historyManager.getPriceHistory()

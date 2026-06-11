@@ -1,14 +1,14 @@
 {
-    "hotDealThreshold": 5,
-    "currencySymbol": "грн",
-    "telegram": {
-        "reportTitle": "📈 Ежедневный отчёт по ценам на комплектующие"
-    },
-    "historyReportDay": 0,
-    "priceSelectors": {
-        "elmir.ua": "div.tovar-price span[itemprop=\"price\"]",
-        "telemart.ua": "div.card-block__price-summ",
-        "hard.rozetka.com.ua": "p.product-price__big",
-        "ktc.ua": "div.product__pricecont div.product__priceinner div.product__price div"
-    }
+  "hotDealThreshold": 5,
+  "currencySymbol": "грн",
+  "telegram": {
+    "reportTitle": "📈 Ежедневный отчёт по ценам на комплектующие"
+  },
+  "historyReportDay": 0,
+  "priceSelectors": {
+    "elmir.ua": "div.tovar-price span[itemprop=\"price\"]",
+    "telemart.ua": "div.card-block__price-summ",
+    "hard.rozetka.com.ua": "p.product-price__big",
+    "ktc.ua": "div.product__pricecont div.product__priceinner div.product__price div"
+  }
 }
