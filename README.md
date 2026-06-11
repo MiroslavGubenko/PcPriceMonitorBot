@@ -6,13 +6,16 @@ npm run start
 ```
 {
     "name": "FOR THE NAME (this is id for history.json)",
-    "urls": [
-"site1.links1",
-"site2.links1",
-"site3.links1",
+    "urls": [ url, url, etc...]
     ]
   }
 ``` 
+```
+url = {
+    link: "www.shop.link_to_item/",
+    tag?: "optional tag for item"
+}
+```
 
 ## config/settings.json
 ```
