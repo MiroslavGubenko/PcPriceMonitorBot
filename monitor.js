@@ -5,6 +5,7 @@ const { generatePriceReport } = require('./data/history_reporter');
 const components = require('./config/components.json');
 const settings = require('./config/settings.json');
 const historyManager = historyService();
+const { closeBrowser } = require('./browserPool');
 //require('dotenv').config(); // for local dev. Create .env file and add BOT_TOKEN and CHAT_ID
 // Загрузка секретов из переменных окружения
 const BOT_TOKEN = process.env.BOT_TOKEN;
@@ -136,4 +137,36 @@ async function main() {
   }
 }
 
-main();
+// Gracefully handle termination signals and ensure browser is closed
+process.on('SIGINT', async () => {
+  console.log('SIGINT received, closing browser...');
+  try {
+    await closeBrowser();
+  } catch (e) {
+    /* ignore */
+  }
+  process.exit(0);
+});
+process.on('SIGTERM', async () => {
+  console.log('SIGTERM received, closing browser...');
+  try {
+    await closeBrowser();
+  } catch (e) {
+    /* ignore */
+  }
+  process.exit(0);
+});
+
+main()
+  .then(async () => {
+    await closeBrowser();
+  })
+  .catch(async (err) => {
+    console.error('Fatal error:', err);
+    try {
+      await closeBrowser();
+    } catch (e) {
+      /* ignore */
+    }
+    process.exit(1);
+  });
