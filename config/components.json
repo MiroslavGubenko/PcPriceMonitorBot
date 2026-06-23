@@ -33,5 +33,25 @@
       }
     ],
     "desiredCost": 22000
+  },
+  {
+    "name": "Acer Barebone Acer Veriton i3-1315U",
+    "urls": [
+      {
+        "link": "https://ktc.ua/goods/personalnij_kompyuter_acer_barebone_acer_veriton_n1502g_13u3u_mff_dt_r37eh_007.html",
+        "tag": "i3-1315U Barebone"
+      }
+    ],
+    "desiredCost": 10000
+  },
+  {
+    "name": "Acer Barebone Acer Veriton i5-1334U",
+    "urls": [
+      {
+        "link": "https://ktc.ua/goods/personalnij_kompyuter_acer_barebone_acer_veriton_n1502g_13u5u_mff_dt_r6beh_001.html",
+        "tag": "i5-1334U Barebone"
+      }
+    ],
+    "desiredCost": 15000
   }
 ]
