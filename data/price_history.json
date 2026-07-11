@@ -234,6 +234,14 @@
           "item_link": "https://ktc.ua/goods/personalnij_kompyuter_geekom_mini_it12_gmit12u5125u_16512_eu___intel_core_ultra_5_ultra_5_125u__16_gb_ddr5__pci_e_ssd_512_gb__intel__intel_arc_graphics_uma__90_vt.html"
         }
       ]
+    },
+    {
+      "11.07.2026": [
+        {
+          "ktc.ua": 38675,
+          "item_link": "https://ktc.ua/goods/personalnij_kompyuter_geekom_mini_it12_gmit12u5125u_16512_eu___intel_core_ultra_5_ultra_5_125u__16_gb_ddr5__pci_e_ssd_512_gb__intel__intel_arc_graphics_uma__90_vt.html"
+        }
+      ]
     }
   ],
   "Мини ПК на Ryzen": [
@@ -804,6 +812,22 @@
           "item_link": "https://hard.rozetka.com.ua/ua/593490133/p593490133/"
         }
       ]
+    },
+    {
+      "11.07.2026": [
+        {
+          "ktc.ua": 27755,
+          "item_link": "https://ktc.ua/goods/personalnij_kompyuter_geekom_a5_mini_pc_gma57430u_16512_eu___amd_ryzen_5_7430u__16_gb_ddr4__pci_e_ssd_512_gb__amd__radeon_graphics_uma__120_vt.html"
+        },
+        {
+          "ktc.ua": 30485,
+          "item_link": "https://ktc.ua/goods/personalnij_kompyuter_geekom_a5_mini_pc_gma5r57530u_16512_eu___amd_ryzen_5_7530u__16_gb_ddr4__pci_e_ssd_512_gb__amd__radeon_graphics_uma__65_vt.html"
+        },
+        {
+          "hard.rozetka.com.ua": 31049,
+          "item_link": "https://hard.rozetka.com.ua/ua/593490133/p593490133/"
+        }
+      ]
     }
   ],
   "Acer Barebone Acer Veriton i3-1315U": [
@@ -902,6 +926,9 @@
     },
     {
       "10.07.2026": []
+    },
+    {
+      "11.07.2026": []
     }
   ],
   "Acer Barebone Acer Veriton i5-1334U": [
@@ -1000,6 +1027,9 @@
     },
     {
       "10.07.2026": []
+    },
+    {
+      "11.07.2026": []
     }
   ]
 }
